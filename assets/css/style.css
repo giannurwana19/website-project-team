@@ -30,7 +30,21 @@
   position: fixed;
   z-index: 999;
   width: 100%;
+  transition: all 0.2s ease;
 }
+
+.navbar.scrolling-active {
+  box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.3);
+  /* background-color: var(--dark); */
+  padding: 15px 0;
+}
+
+/* .navbar.scrolling-active .box-navbar .brand h1 {
+  color: white;
+}
+.navbar.scrolling-active .box-navbar .navigation ul li a {
+  color: white;
+} */
 
 .navbar .box-navbar {
   display: flex;
