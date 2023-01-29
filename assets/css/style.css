@@ -132,7 +132,7 @@
 }
 
 .navbar .box-navbar .brand h1 {
-  font-size: 40px;
+  font-size: 36px;
   color: var(--dark);
 }
 
@@ -363,6 +363,11 @@
   transform: scale(1);
   opacity: 1;
   transition: all 0.2s ease;
+}
+
+footer p {
+  padding: 20px 0;
+  text-align: center;
 }
 
 /* 992 px =============================================================== */
