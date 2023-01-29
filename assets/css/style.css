@@ -18,6 +18,16 @@
   transition: all 0.3s linear;
 }
 
+.lightbox {
+  transform: translateY(10%);
+}
+
+@media (max-width: 1200px) {
+  .lightbox {
+    transform: translateY(20%);
+  }
+}
+
 @media (min-width: 1200px) {
   .container {
     width: 80%;
@@ -426,6 +436,10 @@
   .hero .box-hero .box:nth-child(1) h1 {
     font-size: 36px;
   }
+
+  .lightbox {
+    transform: translateY(30%);
+  }
 }
 
 /* 475 px =============================================================== */
@@ -466,6 +480,10 @@
   .gallery .box-gallery .box:nth-child(1) p {
     font-size: 12px;
   }
+
+  .lightbox {
+    transform: translateY(40%);
+  }
 }
 
 /* 370 px =============================================================== */
@@ -497,6 +515,10 @@
   .about .box-about .box:nth-child(2) p {
     font-size: 12px;
   }
+
+  .lightbox {
+    transform: translateY(60%);
+  }
 }
 
 /* 320 px =============================================================== */
@@ -511,5 +533,9 @@
 
   .about .box-about .box:nth-child(2) p {
     font-size: 10px;
+  }
+
+  .lightbox {
+    transform: translateY(80%);
   }
 }
