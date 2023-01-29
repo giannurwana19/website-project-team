@@ -19,6 +19,12 @@
   <!-- css lightbox2 -->
   <link rel="stylesheet" href="assets/lightbox2/css/lightbox.min.css">
 
+  <!-- animate.style -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <!-- css swiper -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
@@ -31,9 +37,9 @@
   <title>Website Project Team</title>
 </head>
 
-<body>
+<body id="home">
   <!-- navbar -->
-  <nav class="navbar">
+  <nav class="navbar animate animate__animated animate__fadeInDown">
     <div class="container">
       <div class="box-navbar">
         <div class="brand">
@@ -42,23 +48,23 @@
         <div class="navigation">
           <ul>
             <li>
-              <a href="#">Beranda</a>
+              <a href="#home">Beranda</a>
               <i class="fa-solid fa-home"></i>
             </li>
             <li>
-              <a href="#">About Us</a>
+              <a href="#about">About Us</a>
               <i class="fa-solid fa-info-circle"></i>
             </li>
             <li>
-              <a href="#">Galeri</a>
+              <a href="#gallery">Gallery</a>
               <i class="fa-solid fa-image"></i>
             </li>
             <li>
-              <a href="#">Testimonial</a>
+              <a href="#testimonial">Testimonial</a>
               <i class="fa-solid fa-person-circle-question"></i>
             </li>
             <li>
-              <a href="#">Join Us</a>
+              <a href="#join">Join Us</a>
               <i class="fa-solid fa-right-to-bracket"></i>
             </li>
           </ul>
@@ -76,14 +82,14 @@
   <section class="hero">
     <div class="container">
       <div class="box-hero">
-        <div class="box">
+        <div class="box animate animate__animated animate__fadeInLeft">
           <h1>Pekerjaan Akan Lebih Mudah Bersama Team</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas corporis quibusdam necessitatibus accusamus
             expedita dicta.</p>
           <button class="btn1">Detail About Us</button>
           <button class="btn2">Join With Us</button>
         </div>
-        <div class="box">
+        <div class="box animate animate__animated animate__zoomIn">
           <img src="assets/img/hero.jpg" alt="">
         </div>
       </div>
@@ -92,16 +98,16 @@
   <!-- section hero end -->
 
   <!-- section about -->
-  <section class="about">
+  <section id="about" class="about">
     <div class="container">
       <div class="box-about">
-        <div class="box">
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
           <img src="assets/img/about.jpg" class="image1" alt="about">
           <img src="assets/img/about2.jpg" class="image2" alt="about">
           <img src="assets/img/about3.jpg" class="image3" alt="about">
           <img src="assets/img/about4.jpg" class="image4" alt="about">
         </div>
-        <div class="box">
+        <div class="box" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
           <h1>About</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, eaque. Culpa eveniet veniam doloribus,
             reprehenderit laudantium, cum quasi consectetur maiores doloremque blanditiis, pariatur sit ratione commodi
@@ -114,40 +120,46 @@
   <!-- section about end  -->
 
   <!-- section gallery -->
-  <section class="gallery">
+  <section id="gallery" class="gallery">
     <div class="container">
       <div class="box-gallery">
-        <div class="box">
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
           <h1>Gallery</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ut optio reprehenderit magnam quam ullam
             nemo explicabo quaerat, exercitationem fugit.</p>
         </div>
         <div class="box">
-          <a href="assets/img/gallery.jpg" data-lightbox="gallery">
+          <a href="assets/img/gallery.jpg" data-lightbox="gallery" data-aos="fade-up" data-aos-duration="1000">
             <img src="assets/img/gallery.jpg" alt="gallery">
             <div class="bg-img">Lihat Gambar</div>
           </a>
-          <a href="assets/img/gallery2.jpg" data-lightbox="gallery">
+          <a href="assets/img/gallery2.jpg" data-lightbox="gallery" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="100">
             <img src="assets/img/gallery2.jpg" alt="gallery">
             <div class="bg-img">Lihat Gambar</div>
           </a>
-          <a href="assets/img/gallery3.jpg" data-lightbox="gallery">
+          <a href="assets/img/gallery3.jpg" data-lightbox="gallery" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="200">
             <img src="assets/img/gallery3.jpg" alt="gallery">
             <div class="bg-img">Lihat Gambar</div>
           </a>
-          <a href="assets/img/gallery4.jpg" data-lightbox="gallery">
+          <a href="assets/img/gallery4.jpg" data-lightbox="gallery" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="300">
             <img src="assets/img/gallery4.jpg" alt="gallery">
             <div class="bg-img">Lihat Gambar</div>
           </a>
-          <a href="assets/img/gallery5.jpg" data-lightbox="gallery">
+          <a href="assets/img/gallery5.jpg" data-lightbox="gallery" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="400">
             <img src="assets/img/gallery5.jpg" alt="gallery">
             <div class="bg-img">Lihat Gambar</div>
           </a>
-          <a href="assets/img/gallery6.jpg" data-lightbox="gallery">
+          <a href="assets/img/gallery6.jpg" data-lightbox="gallery" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="500">
             <img src="assets/img/gallery6.jpg" alt="gallery">
             <div class="bg-img">Lihat Gambar</div>
           </a>
-          <a href="assets/img/gallery7.jpg" data-lightbox="gallery">
+          <a href="assets/img/gallery7.jpg" data-lightbox="gallery" data-aos="fade-up" data-aos-duration="1000"
+            data-aos-delay="600">
             <img src="assets/img/gallery7.jpg" alt="gallery">
             <div class="bg-img">Lihat Gambar</div>
           </a>
@@ -158,53 +170,53 @@
   <!-- section gallery end -->
 
   <!-- section testimonial -->
-  <section class="testimonial">
+  <section id="testimonial" class="testimonial">
     <div class="container">
       <div class="box-testimonial">
-        <div class="box">
+        <div class="box" data-aos="fade-up" data-aos-duration="1000">
           <h1>Testimonial</h1>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex, exercitationem.</p>
         </div>
         <div class="box">
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
+              <div class="swiper-slide" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, nisi. Iste eligendi at voluptate,
                   in, asperiores qui deleniti nostrum temporibus quia suscipit placeat reprehenderit aperiam vitae enim
                   harum provident necessitatibus.</p>
                 <h4>Person</h4>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="150">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, nisi. Iste eligendi at voluptate,
                   in, asperiores qui deleniti nostrum temporibus quia suscipit placeat reprehenderit aperiam vitae enim
                   harum provident necessitatibus.</p>
                 <h4>Person</h4>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, nisi. Iste eligendi at voluptate,
                   in, asperiores qui deleniti nostrum temporibus quia suscipit placeat reprehenderit aperiam vitae enim
                   harum provident necessitatibus.</p>
                 <h4>Person</h4>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="250">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, nisi. Iste eligendi at voluptate,
                   in, asperiores qui deleniti nostrum temporibus quia suscipit placeat reprehenderit aperiam vitae enim
                   harum provident necessitatibus.</p>
                 <h4>Person</h4>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, nisi. Iste eligendi at voluptate,
                   in, asperiores qui deleniti nostrum temporibus quia suscipit placeat reprehenderit aperiam vitae enim
                   harum provident necessitatibus.</p>
                 <h4>Person</h4>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="350">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, nisi. Iste eligendi at voluptate,
                   in, asperiores qui deleniti nostrum temporibus quia suscipit placeat reprehenderit aperiam vitae enim
                   harum provident necessitatibus.</p>
                 <h4>Person</h4>
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti, nisi. Iste eligendi at voluptate,
                   in, asperiores qui deleniti nostrum temporibus quia suscipit placeat reprehenderit aperiam vitae enim
                   harum provident necessitatibus.</p>
@@ -229,6 +241,8 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <!-- js litghbox2 -->
   <script src="assets/lightbox2/js/lightbox-plus-jquery.min.js"></script>
+  <!-- aos -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <!-- js -->
   <script src="assets/js/index.js"></script>
 </body>

@@ -541,6 +541,10 @@ footer p {
     width: 100%;
   }
 
+  .about {
+    padding-top: 50px;
+  }
+
   .about .box-about .box:nth-child(1) img {
     width: 100%;
   }
