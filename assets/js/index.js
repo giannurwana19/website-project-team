@@ -2,15 +2,18 @@ const navbar = document.querySelector('.navbar');
 const menuBar = document.querySelector('.ri-menu-line');
 const sidebar = document.querySelector('.navigation');
 const iconClose = document.querySelector('.ri-close-line');
-const positionWindow = window.scrollY > 0;
 
 window.addEventListener('DOMContentLoaded', function () {
+  const positionWindow = window.scrollY > 0;
+
   if (positionWindow) {
     navbar.classList.toggle('scrolling-active', positionWindow);
   }
 });
 
 window.addEventListener('scroll', () => {
+  const positionWindow = window.scrollY > 0;
+
   navbar.classList.toggle('scrolling-active', positionWindow);
   sidebar.classList.remove('menu-active');
 });
